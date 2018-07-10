@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "electron": "^1.7.9",
+    "wait-on": "^2.0.2"
+  },
+  "name": "random-movies",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "react": "cd app && yarn start",
+    "electron": "electron .",
+    "start": "concurrently \"npm run react\" \"wait-on http://localhost:3000 && npm run electron\""
+  }
+}
