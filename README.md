@@ -2,6 +2,8 @@
 
 Filmzer offre une solution à l'éternel problème du choix du film à regarder.
 
+![Imgur](https://i.imgur.com/RnAa2UJ.png)
+
 Que vous soyez seul ou accompagné, entrez votre liste de films à voir dans l'application et laissez la en choisir un pour vous. Elle affiche alors l'affiche, la note, la description et d'autres informations sur un film choisi aléatoirement parmis cette liste.
 
 ## Installation et lancement
@@ -28,7 +30,7 @@ La liste des films se trouve dans le fichier ```filmzer/app/src/films.json```. P
 [
   "A bout de souffle",
   "Snwoden",
-  ...
+  "...",
   "mon nouveau titre de film"
 ]
 ```
