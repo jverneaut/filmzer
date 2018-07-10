@@ -4,7 +4,7 @@ Filmzer offre une solution à l'éternel problème du choix du film à regarder.
 
 ![Imgur](https://i.imgur.com/RnAa2UJ.png)
 
-Que vous soyez seul ou accompagné, entrez votre liste de films à voir dans l'application et laissez la en choisir un pour vous. Elle affiche alors l'affiche, la note, la description et d'autres informations sur un film choisi aléatoirement parmis cette liste.
+Que vous soyez seul ou accompagné, entrez votre liste de films à voir dans l'application et laissez-la en choisir un pour vous. Elle affiche alors l'affiche, la note, la description ansi que d'autres informations sur un film choisi aléatoirement parmi cette liste.
 
 ## Installation et lancement
 ```shell
@@ -19,7 +19,7 @@ npm run start
 
 Cette application récupère les informations sur les films grâce à l'api de [themoviedb.org](https://www.themoviedb.org/).
 
-Pour utiliser cette api, vous devez créer une clef [à cette adresse](https://developers.themoviedb.org/3).
+Pour utiliser cette api, vous devez conc créer une clef pour utiliser l'api [à cette adresse](https://developers.themoviedb.org/3).
 
 Editez ensuite le fichier ```filmzer/app/.env.example``` et insérez votre clef à l'emplacement prévu à cet effet.
 Renommez ensuite ce fichier ```.env.example``` en ```.env```.
